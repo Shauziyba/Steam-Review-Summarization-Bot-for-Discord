@@ -6,13 +6,61 @@ This project is a Discord bot designed to summarize user reviews from Steam game
 
 This project is a Discord bot that fetches and summarizes Steam game reviews. It provides functionalities like reviewing Steam games, displaying game information, and listing top games.
 
+## Features
+
+- Fetch and summarize Steam game reviews.
+- Display game information like description, release date, and price.
+- Provide a list of the top trending Steam games.
+
+---
+
 ## Source Code
 
 You can find the source code for this project in the following files:
 
 - `main.py`: The main bot script with commands.
 
+---
+
 ## Installation Instructions
+
+### Step 1: Set Up Discord and a Server
+
+1. **Download Discord**  
+   If you don’t already have Discord installed, download it from [Discord's official website](https://discord.com/).
+
+2. **Create a Discord Server**
+   - Open Discord and log in to your account.
+   - Click the **+** button on the left-hand side of the Discord app to create a new server.
+   - Follow the on-screen prompts to name and configure your server.
+
+---
+
+### Step 2: Set Up the Discord Developer Portal
+
+1. **Visit the Discord Developer Portal**  
+   Go to [Discord Developer Portal](https://discord.com/developers/applications) and log in using your Discord account.
+
+2. **Create a New Application**
+
+   - Click the **New Application** button.
+   - Give your application a name (e.g., "Steam Review Bot") and click **Create**.
+
+3. **Generate a Bot Token**
+
+   - In your application settings, go to the **Bot** section on the left-hand menu.
+   - Click **Add Bot** and confirm.
+   - Copy the **token** provided. This token is needed to authenticate your bot. **Keep it secret!**
+
+4. **Invite the Bot to Your Server**
+   - In the Developer Portal, go to the **OAuth2** section and select **URL Generator**.
+   - Under **Scopes**, select **bot**.
+   - Under **Bot Permissions**, select the permissions your bot requires (e.g., "Send Messages," "Read Message History," etc.).
+   - Copy the generated URL, paste it into your browser, and select your server to invite the bot.
+
+---
+
+### Step 3: Installation Instructions
 
 Follow these steps to set up the project locally:
 
@@ -57,10 +105,6 @@ Once the bot is up and running, you can interact with it using the following com
 
 4. **!commands** - Show the list of all available commands.
 
-### Sample Data (Optional)
-
-If needed, you can include sample data for testing the bot. Download sample Steam data from [Steam API Sample Data](link_to_data).
-
 ## Additional Resources / Dependencies
 
 - **Discord API**: The bot requires the Discord API to send and receive messages. Make sure to add your bot token.
@@ -72,26 +116,6 @@ If you encounter any issues, check the following:
 
 - Make sure all required environment variables (e.g., bot token, API keys) are set.
 - Ensure that your Discord bot has the necessary permissions on the server.
-
-## Questions?
-
-If you have any questions or need assistance, feel free to open an issue or contact me directly.
-
----
-
-## FAQs
-
-- **How do I set up the bot?**
-  Follow the installation instructions provided above.
-
-- **What APIs does the bot use?**
-  The bot fetches data from the Steam API and Discord API.
-
-- **Can I add the bot to my own server?**
-  Yes, you can add the bot to any Discord server you have administrative access to. Follow the invitation link for your bot and grant the necessary permissions.
-
-- **How can I contribute to this project?**
-  Feel free to fork the repository, create a branch, and submit pull requests. Contributions are always welcome!
 
 ---
 
