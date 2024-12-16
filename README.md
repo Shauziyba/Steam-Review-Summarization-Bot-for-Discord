@@ -105,11 +105,6 @@ Once the bot is up and running, you can interact with it using the following com
 
 4. **!commands** - Show the list of all available commands.
 
-## Additional Resources / Dependencies
-
-- **Discord API**: The bot requires the Discord API to send and receive messages. Make sure to add your bot token.
-- **Steam API**: The bot interacts with the Steam API for fetching game details and reviews.
-
 ## Troubleshooting
 
 If you encounter any issues, check the following:
